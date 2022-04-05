@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', indexRouter);
 //app.use('/users', usersRouter);
+//Cree las rutas de los archivos 
 app.get('/', (req,res) => res.sendFile(path.resolve(__dirname, 'views', 'index.html')));
 app.get('/login', (req,res) => res.sendFile(path.resolve(__dirname, 'views', 'login.html')));
 app.get('/product-cart', (req,res) => res.sendFile(path.resolve(__dirname, 'views', 'ProductCart.html')));
