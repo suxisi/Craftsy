@@ -1,5 +1,26 @@
-*{
+@font-face {
+    src: url(/fonts/CRENZO.ttf) format("truetype");
+    font-family:'Crenzo';
+    font-style: 'normal';
+    font-weight: 'normal';
+  }
+
+  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-image: url('/images/bg-2.png');
+    font-family: 'Roboto';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
 }
